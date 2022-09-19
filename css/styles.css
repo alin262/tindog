@@ -1,0 +1,197 @@
+/* Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400;700&display=swap');
+
+
+body{
+    font-family: 'Montserrat';
+    padding: 0;
+    margin: 0;
+    /* #white color at right side bug fix  <<down>>*/
+    overflow-x: hidden; 
+}
+
+#title {
+    background-color:#E0115F;
+    color: #fff;
+}
+
+.container-fluid {
+    padding: 3% 15%
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 1.5rem;
+    
+}
+
+h2{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    margin: 0 20%;
+    line-height: 3.5rem;
+}
+
+
+/* Navigation Bar */
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+    
+}
+
+
+/* Download Button */
+
+.download-btn{
+    margin:5% 3%;
+}
+
+/* Title Image */
+
+
+.title-img{
+    width: 15rem;
+    transform: rotate(25deg);
+    margin-left: 14%;
+    position: absolute;
+    
+}
+
+@media (max-width:768px){
+    .title-img{
+        position:relative;
+        width:50%;
+        margin-left: 9rem;
+        margin-top:3rem;
+        margin-bottom: 3rem;
+        right: 3rem;
+    }
+
+    .button{
+        text-align: center;
+    }
+}
+
+/* Feature section */
+
+#features{
+    text-align: center;
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+   
+    
+
+}
+
+.feature-content{
+    padding: 5%;
+}
+
+.icon{
+    color:#ef8172;
+    transition:  400ms ;
+    
+}
+
+.icon:hover{
+    
+    color:#ff4c68;
+
+}
+
+/* Testimonials */
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    padding: 4rem 0;
+
+}
+
+.testimonial-icon{
+    width: 10%;
+    border-radius: 100%;
+    margin: 1rem;
+}
+
+/* Press */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+}
+
+.press-img{
+    width: 10rem;
+    margin: 0 3rem 3rem 3rem;
+}
+
+/* Pricing */
+
+#pricing{
+    text-align: center;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+}
+
+
+
+.card{
+    margin: 3% auto;
+}
+
+/* Call to action */
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 5rem;
+}
+
+#cta h3{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+#cta button{
+    margin :.5rem;
+}
+
+
+/* Footer section */
+
+#footer{
+
+    text-align: center;
+    padding: 2rem;
+    background-image: linear-gradient(#ff4c68,#fff);;
+
+}
+
+.footer-icons{
+    margin: 0 10px;
+}
